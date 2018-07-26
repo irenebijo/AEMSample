@@ -20,7 +20,9 @@ To build all the modules run in the project root directory the following command
 
 If you have a running AEM instance you can build and package the whole project and deploy into AEM with  
 
-    mvn clean install -PautoInstallPackage
+    mvn clean install -PautoInstallPackage -Padobe-public
+    Add -Padobe-public to the mvn command, or
+	Update your settings file as describes in https://helpx.adobe.com/experience-manager/using/first-osgi.html to use the Adobe repo as a default
     
 Or to deploy it to a publish instance, run
 
