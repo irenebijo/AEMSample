@@ -24,7 +24,7 @@ If you have a running AEM instance you can build and package the whole project a
     Add -Padobe-public to the mvn command, or
 	Update your settings file as describes in 
 	https://helpx.adobe.com/experience-manager/using/first-osgi.html to use 
-	the Adobe repo as a default
+	the Adobe repo as a default.
     
 Or to deploy it to a publish instance, run
 
